@@ -1,5 +1,5 @@
 {
-  "name": "linkedin-extesion",
+  "name": "Linkedin-extesion",
   "version": "1.0.0",
   "description": "A basic Chrome extension using Webpack",
   "main": "background.js",

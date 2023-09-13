@@ -1,16 +1,10 @@
 import { createElement } from "ardelon-create-element";
-import { generatePanel } from "./utilities";
 
 const loadTitle = () => {
   const titleContainer = createElement({});
-  const title = createElement({ innerText: "Twitter Title" });
-  const isTwitter = createElement({
-    id: "is-twitter",
-    innerText: "not twitter",
-    classList: ["not-twitter"],
-  });
+  const title = createElement({ innerText: "Linkedin" });
 
-  titleContainer.append(title, isTwitter);
+  titleContainer.append(title);
   return titleContainer;
 };
 
